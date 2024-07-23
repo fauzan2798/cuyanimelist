@@ -4,7 +4,6 @@ import { getAnimeResponse } from "./libs/api-libs";
 
 const Page = async () => {
   const topAnime = await getAnimeResponse("top/anime", "limit=8")
-
   return (
     <>
       <section>
